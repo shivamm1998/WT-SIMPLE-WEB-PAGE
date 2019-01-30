@@ -1,0 +1,126 @@
+h3
+{
+color: black;
+padding:20x;
+}
+
+img {
+  border-radius: 50%;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+  padding:20px;
+}
+
+p {
+  color: black;
+  text-align: center;
+  padding:20px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: black;
+}
+
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #2196F3;
+  color: white;
+}
+
+.topnav .login-container {
+  float: right;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+  width: 150px; 
+}
+
+.topnav .login-container button {
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .login-container button:hover {
+  background: #ccc;
+}
+
+
+
+.copyright {
+    float: left;
+}
+
+.social { 
+    float: right;
+}
+
+
+body
+{
+background-image: url("back3.jpg");
+ background-repeat:no-repeat;
+background-position:center;
+background-size:100%,100%;
+padding:20px;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+
+.btn {
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.About {
+  border-color: #4CAF50;
+  color: green;
+}
+
+.About:hover {
+  background-color: #4CAF50;
+  color: white;
+}
